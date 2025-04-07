@@ -107,3 +107,14 @@ input[type='submit'] {
   footer {
 	clear: both;
   }
+
+  .imgdiv {
+	position: absolute; 
+	/* so we can place it dynamically */
+	/* optional: you can also set top/left to 0 if you want them at the very top-left on page load */
+  }
+  
+  .pic {
+	border-bottom: thin dashed darkgreen;
+	cursor: pointer; /* nice to indicate it's interactive */
+  }
